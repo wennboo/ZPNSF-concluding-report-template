@@ -11,7 +11,7 @@
 ### 工程说明
 系统文件（勿删）：wreport.cls文件完成格式配置；wreport.bst参考文献格式；latexmkrc用于使用latexmk快速编译。
 
-文件夹：pics存储图片、contents存放基金内容、refs用于放参考文献。
+文件夹：pics存储图片、refs用于放参考文献。
 
 
 ### 文档编译
