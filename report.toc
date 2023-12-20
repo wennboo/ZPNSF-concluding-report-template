@@ -6,5 +6,6 @@
 \contentsline {subsection}{\numberline {1.2}参考文献的查找与引用}{2}{subsection.1.2}%
 \contentsline {section}{\numberline {2}插入表格}{3}{section.2}%
 \contentsline {section}{参考文献}{4}{table.1}%
-\contentsline {section}{附录}{6}{table.1}%
-\contentsline {subsection}{\numberline {A.1}成果}{6}{subsection.2.1}%
+\addtolength {\cftsecnumwidth }{24pt}
+\contentsline {section}{\numberline {附录A}主要成果情况}{6}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}成果}{6}{subsection.A.1}%

@@ -1,12 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.21)  15 DEC 2023 19:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.11.21)  20 DEC 2023 11:34
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **report.tex
-(e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.tex
+(./report.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/wreport.cls
+L3 programming layer <2021-02-18> (./wreport.cls
 Document Class: wreport 
 (d:/software/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -558,7 +557,17 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip63
 \thm@headsep=\skip64
 \dth@everypar=\toks40
-) (d:/software/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+) (d:/software/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (d:/software/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+) (d:/software/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+
+Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supported.
+
+)) (d:/software/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip65
 \bibsep=\skip66
@@ -843,7 +852,7 @@ Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.aux)
+(./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -997,7 +1006,7 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- (e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.toc
+ (./report.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  (d:/software/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1011,15 +1020,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [1
 
-] (e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.lof)
+] (./report.lof)
 \tf@lof=\write6
 \openout6 = `report.lof'.
 
- [2] (e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.lot)
+ [2] (./report.lot)
 \tf@lot=\write7
 \openout7 = `report.lot'.
 
- [3]
+ [3] (./contents/introduction.tex)
 File: ./pics//中英文文献bib编译注意事项.png Graphic file (type bmp)
 <./pics//中英文文献bib编译注意事项.png>
 
@@ -1034,21 +1043,21 @@ File: ./pics//文献搜索说明0.jpg Graphic file (type bmp)
 File: ./pics//文献搜索说明1.png Graphic file (type bmp)
 <./pics//文献搜索说明1.png>
 
-Overfull \hbox (11.52849pt too wide) in paragraph at lines 66--81
+Overfull \hbox (11.52849pt too wide) in paragraph at lines 65--80
 \TU/SimSun(0)/m/n/12 想 管 理 参 考 文 献，|  可 新 建 几 个 \TU/lmr/m/n/12 bib \TU/SimSun(0)/m/n/12 文 件 并 用[][]\TU/lmtt/m/n/12 \bibliography{en_ref,cn_ref,...}[]\TU/SimSun(0)/m/n/12 完
  []
 
-[2] [3] (e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.bbl
+[2] [3] (./report.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]) [5] [6] (e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.aux) ) 
+ [4]) [5] [6] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 28723 strings out of 478312
- 572163 string characters out of 5847729
- 930732 words of memory out of 5000000
- 48100 multiletter control sequences out of 15000+600000
- 412176 words of font info for 80 fonts, out of 8000000 for 9000
+ 28776 strings out of 478312
+ 571894 string characters out of 5847729
+ 931656 words of memory out of 5000000
+ 48142 multiletter control sequences out of 15000+600000
+ 412168 words of font info for 79 fonts, out of 8000000 for 9000
  306 hyphenation exceptions out of 8191
- 128i,8n,130p,421b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,8n,130p,421b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on e:/Users/wenbo/Desktop/学习总结/latex模板/ZPNSF-concluding-report template（浙江省基结题报告模板）/report.pdf (9 pages).
+Output written on report.pdf (9 pages).
