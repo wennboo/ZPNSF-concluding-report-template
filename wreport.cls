@@ -36,6 +36,7 @@
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
+\RequirePackage{epstopdf}
 \RequirePackage[comma,numbers,square,sort&compress]{natbib}
 \RequirePackage{paralist}
 \RequirePackage{bm}
@@ -107,7 +108,9 @@
 \renewcommand{\cftsubsecfont}{\heiti} %设置subsection条目的字体
 \setlength\cftbeforesecskip{2pt}
 \setlength\cftbeforesubsecskip{0em}
-
+% \cftsetindents{section}{21pt}{22pt}%%%%%调整indent到章的宽度
+% \cftsetindents{subsection}{44pt}{31pt}
+% \cftsetindents{subsubsection}{76pt}{41pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%文本格式设置%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \linespread{1.4}%行距设置
@@ -145,6 +148,7 @@
 \newtheorem{problem}[theorem]{问题}
 \newtheorem{assumption}[theorem]{假设}
 
+\renewcommand{\proofname}{\bfseries 证明}
 
 
 %%%%%%%%%%%%%%%页眉页脚设置%%%%%%%%%%%%%%%%%%%
@@ -248,7 +252,7 @@
   \begin{center}
     {\heiti\sanhao 正\one@space 文}
   \end{center}
-  \vspace{0.5cm}
+  \vspace{0.3cm}
   \setcounter{page}{1}
   \pagenumbering{arabic}
 }
@@ -275,9 +279,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%附录%%%%%%%%%%%%%%%%%%%%
 \newcommand{\myappendix}{
   \newpage
-  \renewcommand{\thesubsection}{A.\arabic{subsection}}
+  \appendix
+  \interlinepenalty=0
   \section*{\sanhao\centerline{附\half@space 录}}
   \vspace{0.5cm}
-  \addcontentsline{toc}{section}{附录}
+  \addtocontents{toc}{\protect\addtolength{\cftsecnumwidth}{24pt}}
+  \renewcommand{\thesection}{附录\Alph{section}}
+  \renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}}
+  \renewcommand{\appendixname}{附录}
+  \section{主要成果情况}
+  % \addcontentsline{toc}{section}{附录}
   }
 
